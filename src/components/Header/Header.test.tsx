@@ -1,8 +1,8 @@
 import {render, screen} from "@testing-library/react"
-import Header from '.'
+import Head from './index.jsx'
 
 test("To see if the header text is rendered correctly and also as an h1", () => {
-    render(<Header />)
+    render(<Head />)
 
     const headerText = screen.getByRole("heading", { level: 1, name: "Guest Book"})
 
@@ -12,7 +12,7 @@ test("To see if the header text is rendered correctly and also as an h1", () => 
 })
 
 test("Check that the h1 element has correct class names", () => {
-    render(<Header />);
+    render(<Head />);
 
     const headerText = screen.getByRole("heading", { level: 1 });
     
@@ -20,7 +20,7 @@ test("Check that the h1 element has correct class names", () => {
 });
 
 test("Check that the SubTitle component is rendered within the Header", () => {
-    render(<Header />);
+    render(<Head />);
     
     const subTitleText = screen.getByRole("heading", { level: 3 });
     
@@ -29,7 +29,7 @@ test("Check that the SubTitle component is rendered within the Header", () => {
 });
 
 test("Check that the Header passes the correct text prop to SubTitle", () => {
-    render(<Header />);
+    render(<Head />);
     
     const subTitle = screen.getByText("Leave a message down below...");
     
