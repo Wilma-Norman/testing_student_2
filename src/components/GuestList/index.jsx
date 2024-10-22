@@ -16,10 +16,10 @@ const GuestList = ({ listItem }: GuestListProps) => {
     }
  
     return (
-        <div className="">
+        <div className="bg-red-300">
             <NewMessage onSend={addMessage} />
             <div
-                className=""
+                className="bg-red-300"
                 data-testid="guest-list"
             >
                 { messages && messages.map((item) => <List key={item.id} {...item} />)}
