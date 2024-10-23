@@ -1,5 +1,7 @@
+'use client'
 import { useState } from "react";
 import { ListType } from "@/utils/types";
+
  
 const List = ({ id, message }: ListType) => {
     const [isVisible, setIsVisible] = useState(true);
