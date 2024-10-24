@@ -2,6 +2,7 @@ import { ListType } from "@/utils/types";
 import { useState } from "react";
 import List from "../List";
 import NewMessage from "../NewMessage";
+import React from "react";
  
 type GuestListProps = {
     listItem: ListType[] | null
