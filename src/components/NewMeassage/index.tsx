@@ -22,7 +22,7 @@ const NewMessage = ({ onSend }) => {
                     onChange={(e) => setMessage(e.target.value)}
                 />
                 <button
-                    className="w-16 p-3 m-3 bg-blue-300 rounded-lg"
+                    className="m-4 p-3 bg-blue-400 rounded-lg text-white"
                     onClick={handleSend}>
                     Send
                 </button>

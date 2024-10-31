@@ -18,15 +18,17 @@ const GuestList = ({ listItem }: GuestListProps) => {
     }
  
     return (
-        <div className="bg-red-300">
+        <section className='flex justify-center items-center'>
+        <div className="bg-green-300 w-3/4 flex flex-col justify-center">
             <NewMessage onSend={addMessage} />
             <div
-                className="bg-red-300"
-                data-testid="guest-list"
-            >
-                { messages && messages.map((item) => <List key={item.id} {...item} />)}
+                className="bg-blue-300 flex-col justify-center items-center"
+                data-testid="guest-list">
+                { messages && messages.map((item) => 
+                <List key={item.id} {...item} />)}
             </div>
         </div>
+        </section>
     )
 }
 export default GuestList;
