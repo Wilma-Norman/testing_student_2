@@ -1,3 +1,4 @@
+'use client'
 import { ListType } from "@/utils/types";
 import { useState } from "react";
 import List from '../List';

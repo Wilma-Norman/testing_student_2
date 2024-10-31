@@ -33,8 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <NewMessage onSend={undefined}/>
-        <List id={0} message={""} />
+        <GuestList listItem={null} />       
         {children}
       </body>
     </html>
