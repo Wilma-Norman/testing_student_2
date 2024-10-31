@@ -32,15 +32,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-<<<<<<< HEAD
-        
-        <GuestList listItem={null} />
-      
-      
-=======
         <Header /> 
         <GuestList listItem={null} />
->>>>>>> header
         {children}
       </body>
     </html>
