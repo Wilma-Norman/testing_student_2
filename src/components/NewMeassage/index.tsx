@@ -12,8 +12,8 @@ const NewMessage = ({ onSend }) => {
     };
     
     return (
-        <div className="bg-blue-200 my-10 p-10 rounded-xl w-fit mx-auto border-b-4 border-yellow-600">
-            <div>
+        <div className="bg-blue-200 my-10 p-10 rounded-xl w-fit mx-auto border-b-4">
+            <div className="bg-yellow-200 my-10 p-10 rounded-xl w-fit mx-auto border-b-4">
                 <input
                     type="text"
                     className="m-3 rounded-lg"
