@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <List id={""} message={""} />
+        <List id={0} message={""} />
         <GuestList listItem={null} />
         <NewMessage onSend={undefined}/>
         {children}

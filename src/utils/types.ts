@@ -1,4 +1,4 @@
 export type ListType = {
-    id: string,
+    id: number,
     message: string
 }

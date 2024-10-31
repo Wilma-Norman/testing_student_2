@@ -17,14 +17,14 @@ const List = ({ id, message }: ListType) => {
  
     return (
         <>
-            <div className={`flex gap-4 p-4 my-2 rounded ${isImportant ? 'bg-yellow-200' : 'bg-pink-100'}`} key={id} data-testid="list-item">
+            <div className={`flex gap-4 p-4 my-2 rounded ${isImportant ? 'bg-red-500' : 'bg-blue-300'}`} key={id} data-testid="list-item">
                 <div className="basis-4/5">
                     {isVisible ? message : ""}
                 </div>
-                <button className="basis-1/5 text-pink-800 bg-pink-100 font-bold rounded" data-testid="toggle-message" onClick={toggleVisibility}>
+                <button className="bg-blue-200 w-24 rounded-xl p-2.5" data-testid="toggle-message" onClick={toggleVisibility}>
                     {isVisible ? "Hide" : "Show"}
                 </button>
-                <button className="basis-1/5 text-pink-800 bg-pink-100 font-bold rounded" data-testid="toggle-important" onClick={toggleImportant}>
+                <button className="bg-blue-200 w-24 rounded-xl p-2.5" data-testid="toggle-important" onClick={toggleImportant}>
                     {isImportant ? "Unimportant" : "Important"}
                 </button>
             </div>
