@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import NewMessage from "@/components/NewMeassage";
-import Header from '../components/Header/index'
 import List from "../components/List/index";
+import Header from '../components/Header/index'
 import "./globals.css";
 import GuestList from "@/components/GuestList";
 
