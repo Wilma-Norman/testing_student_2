@@ -1,7 +1,7 @@
 import { ListType } from "@/utils/types";
 import { useState } from "react";
-import List from "../List";
-import NewMessage from "../NewMessage";
+import List from '../List';
+import NewMessage from '../NewMeassage';
 import React from "react";
  
 type GuestListProps = {
