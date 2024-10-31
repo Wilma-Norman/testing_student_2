@@ -6,7 +6,6 @@ import GuestList from "@/components/GuestList";
 export default function Home() {
   return (
     <>
-      
     </>
   );
 }
