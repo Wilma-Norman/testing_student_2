@@ -1,7 +1,8 @@
+'use client'
 import { ListType } from "@/utils/types";
 import { useState } from "react";
 import List from "../List";
-import NewMessage from "../NewMessage";
+import NewMessage from '../NewMeassage';
 import React from "react";
  
 type GuestListProps = {
