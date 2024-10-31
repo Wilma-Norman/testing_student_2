@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import NewMessage from "@/components/NewMeassage";
+import Header from '../components/Header/index'
 import List from "../components/List/index";
 import "./globals.css";
 import GuestList from "@/components/GuestList";
@@ -31,9 +32,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <List id={0} message={""} />
-        <GuestList listItem={null} />
-        <NewMessage onSend={undefined}/>
+        <Header />
+        <GuestList listItem={null} />        
         {children}
       </body>
     </html>
