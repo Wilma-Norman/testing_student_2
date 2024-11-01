@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <GuestList listItem={null} />        
+        <GuestList listItem={null} />       
         {children}
       </body>
     </html>
