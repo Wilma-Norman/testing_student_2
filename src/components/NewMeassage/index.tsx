@@ -16,7 +16,7 @@ const NewMessage = ({ onSend }) => {
             <div>
                 <input
                     type="text"
-                    className="md:m-3 md:rounded-lg md:w-3/4 md:p-4 flex rounded-xl w-fit text-sm"
+                    className="md:m-3 md:rounded-lg md:w-3/4 md:p-4 flex rounded-xl w-fit text-sm p-2"
                     placeholder="Leave a message..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
