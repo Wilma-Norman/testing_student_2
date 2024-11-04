@@ -1,7 +1,7 @@
 'use client'
 import { ListType } from "@/utils/types";
 import { useState } from "react";
-import List from '../List';
+import List from "../List";
 import NewMessage from '../NewMeassage';
 import React from "react";
  
@@ -22,7 +22,7 @@ const GuestList = ({ listItem }: GuestListProps) => {
         <div className="bg-green-300 w-3/4 flex flex-col justify-center rounded-xl">
             <NewMessage onSend={addMessage} /> 
             <div
-                className="bg-blue-300 flex-col justify-center items-center"
+                className="flex-col justify-center items-center"
                 data-testid="guest-list">
                 { messages && messages.map((item) => 
                 <List key={item.id} {...item} />)}
