@@ -21,10 +21,10 @@ const List = ({ id, message }: ListType) => {
                 <div className="w-full flex items-center text-xl">
                     {isVisible ? message : ""}
                 </div>
-                <button className="bg-blue-200 w-24 rounded-xl p-2.5" data-testid="toggle-message" onClick={toggleVisibility}>
+                <button className="md:bg-blue-200 md:w-24 md:rounded-xl md:p-2.5 bg-blue-200 w-24 rounded-xl text-sm" data-testid="toggle-message" onClick={toggleVisibility}>
                     {isVisible ? "Hide" : "Show"}
                 </button>
-                <button className="bg-blue-200 w-24 rounded-xl p-2.5" data-testid="toggle-important" onClick={toggleImportant}>
+                <button className="md:bg-blue-200 md:w-24 md:rounded-xl md:p-2.5 bg-blue-200 w-24 rounded-xl text-sm" data-testid="toggle-important" onClick={toggleImportant}>
                     {isImportant ? "Unimportant" : "Important"}
                 </button>
             </div>
