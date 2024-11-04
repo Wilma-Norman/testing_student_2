@@ -17,7 +17,7 @@ const List = ({ id, message }: ListType) => {
  
     return (
         <>
-            <div className={`flex gap-4 p-4 my-2 rounded ${isImportant ? 'bg-red-500' : 'bg-blue-300'}`} key={id} data-testid="list-item">
+            <div className={`flex gap-4 p-4 my-2 rounded ${isImportant ? 'bg-yellow-200' : 'bg-pink-100'}`} key={id} data-testid="list-item">
                 <div className="w-full flex items-center text-xl">
                     {isVisible ? message : ""}
                 </div>
