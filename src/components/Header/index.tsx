@@ -2,8 +2,8 @@ import SubTitle from "../SubTitle"
 
 const Head = () => {
     return(
-        <header className='bg-white mb-6 p-6 rounded-b-lg shadow-md border-b-2 border-pink-300'>
-            <h1 className='text-4xl font-bold tracking-wide mb-2'>Guest Book</h1>
+        <header className='text-center m-0 p-8 bg-blue-200'>
+            <h1 className='text-4xl font-bold text-pink-600 mb-2 tracking-wide'>Guest Book</h1>
             <SubTitle text="Leave a message down below..." />
         </header>
     )
