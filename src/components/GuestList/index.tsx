@@ -19,7 +19,7 @@ const GuestList = ({ listItem }: GuestListProps) => {
  
     return (
         <section className='flex justify-center items-center'>
-        <div className="bg-green-300 w-3/4 flex flex-col justify-center rounded-xl m-16">
+        <div className="md:bg-green-300 md:w-3/4 md:flex md:justify-center md:rounded-xl md:m-16 w-full">
             <NewMessage onSend={addMessage} /> 
             <div
                 className="flex-col justify-center items-center"
