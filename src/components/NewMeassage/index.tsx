@@ -12,7 +12,7 @@ const NewMessage = ({ onSend }) => {
     };
     
     return (
-        <div className="bg-blue-200 my-10 p-10 rounded-xl w-fit mx-auto border-b-4">
+        <div className="bg-blue-200 m-10 p-10 rounded-xl w-fit mx-auto border-b-4">
             <div>
                 <input
                     type="text"
@@ -24,7 +24,7 @@ const NewMessage = ({ onSend }) => {
                 <button
                     className="m-4 p-3 bg-blue-400 rounded-lg text-white"
                     onClick={handleSend}>
-                    Send
+                    Send!
                 </button>
             </div>
         </div>
