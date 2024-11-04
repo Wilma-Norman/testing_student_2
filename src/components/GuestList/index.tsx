@@ -19,10 +19,10 @@ const GuestList = ({ listItem }: GuestListProps) => {
  
     return (
         <section className='flex justify-center items-center'>
-        <div className="md:bg-green-300 md:w-3/4 md:flex md:justify-center md:rounded-xl md:m-16 w-full">
+        <div className="md:bg-green-300 md:w-3/4 md:rounded-xl md:m-16 w-full rounded-xl m-4 bg-green-300">
             <NewMessage onSend={addMessage} /> 
             <div
-                className="flex-col justify-center items-center"
+                className="justify-center items-center"
                 data-testid="guest-list">
                 { messages && messages.map((item) => 
                 <List key={item.id} {...item} />)}
