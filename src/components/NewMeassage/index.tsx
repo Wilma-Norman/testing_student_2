@@ -12,11 +12,11 @@ const NewMessage = ({ onSend }) => {
     };
     
     return (
-        <div className="bg-blue-200 m-10 p-10 rounded-xl w-fit mx-auto border-b-4">
+        <div className="bg-blue-200 m-10 p-10 rounded-xl w-3/5 mx-auto border-b-4 ">
             <div>
                 <input
                     type="text"
-                    className="m-3 rounded-lg"
+                    className="m-3 rounded-lg w-3/4 p-4"
                     placeholder="Leave a message..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
