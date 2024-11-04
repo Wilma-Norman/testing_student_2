@@ -13,7 +13,7 @@ const NewMessage = ({ onSend }) => {
     
     return (
         <div className="md:bg-blue-200 md:m-10 md:p-10 md:rounded-xl md:w-3/5 md:mx-auto md:border-b-4 w-full flex justify-center m-5 flex-col">
-            <div>
+            <div className='w-fit'>
                 <input
                     type="text"
                     className="md:m-3 md:rounded-lg md:w-3/4 md:p-4 flex rounded-xl w-fit text-small"
