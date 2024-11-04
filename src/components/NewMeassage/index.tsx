@@ -1,7 +1,11 @@
 'use client'
 import { useState } from "react";
+
+interface NewMessageProps {
+    onSend: (message: string) => void;
+}
  
-const NewMessage = ({ onSend }) => {
+const NewMessage: React.FC<NewMessageProps> = ({ onSend }) => {
     const [message, setMessage] = useState("");
  
     const handleSend = () => {
