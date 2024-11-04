@@ -17,7 +17,7 @@ const NewMessage = ({ onSend }) => {
                 <input
                     type="text"
                     className="m-3 rounded-lg"
-                    placeholder="message..."
+                    placeholder="Leave a message..."
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                 />
